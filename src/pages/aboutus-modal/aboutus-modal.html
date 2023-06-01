@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{'Aboutus Modal' | translate}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="main-modal">
+        <div class="modal-box">
+            <h1>{{'Kent Cables' | translate}}</h1>
+            <h2>{{'Your request to access the Kent Cables is under review. You will be able to log in as soon as the overseeing admin acknowledges your application.' | translate}}</h2>
+            <p>{{'Meanwhile, you can contact us' | translate}} <a href="tel:9599933955">+91 9599933955</a> {{'or mail us' | translate}} <span> <a href="mailto:info@kentbharat.com">info@kentbharat.com</a>
+            </span> {{'if you any question' | translate}}.</p>
+            <div class="modal-cls" (click)="gotoHomePage()">
+                <i class="material-icons">cancel</i>
+            </div>
+        </div>
+    </div>
+</ion-content>
